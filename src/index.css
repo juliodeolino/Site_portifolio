@@ -1,0 +1,120 @@
+@import "tailwindcss";
+
+/* Importe suas fontes aqui, se for usar fontes externas */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&display=swap');
+
+:root {
+  /* Cores Primárias */
+  --primary: #1B263B;
+  --primary-light: #415A77;
+  /* Cores Secundárias */
+  --secondary: #E0E1DD;
+  --secondary-light: #757575;
+  --secondary-white: #F5F5F5;
+  /* Cores Terciárias */
+  --tertiary: #0D1B2A;
+  --tertiary-black: #222222;
+
+  /* Fontes */
+  --font-roboto: 'Roboto', sans-serif;
+  --font-open-sans: 'Open Sans', sans-serif;
+
+  /* Tamanhos de Fonte */
+  --font-size-sm: 0.875rem;  /* 14px */
+  --font-size-md: 1rem;      /* 16px */
+  --font-size-lg: 1.25rem;   /* 20px */
+  --font-size-xl: 1.5rem;    /* 24px */
+
+  /* Pesos de Fonte */
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+}
+
+/* Classes para Background Color */
+.bg-minha-cor-primaria {
+  background-color: var(--primary);
+}
+
+.bg-minha-cor-primaria-light {
+  background-color: var(--primary-light);
+}
+
+.bg-minha-cor-secundaria { /* Corrigi aqui para 'secundaria' */
+  background-color: var(--secondary); /* Corrigi aqui para 'secondary' */
+}
+
+.bg-minha-cor-secundaria-light { /* Corrigi aqui para 'secundaria' */
+  background-color: var(--secondary-light); /* Corrigi aqui para 'secondary-light' */
+}
+
+.bg-minha-cor-secundaria-white { /* Corrigi aqui para 'secundaria-white' */
+  background-color: var(--secondary-white); /* Corrigi aqui para 'secondary-white' */
+}
+
+.bg-minha-cor-terciaria {
+  background-color: var(--tertiary);
+}
+
+.bg-minha-cor-terciaria-black {
+  background-color: var(--tertiary-black);
+}
+
+/* Classes para Text Color */
+.text-minha-cor-primaria {
+  color: var(--primary);
+}
+
+.text-minha-cor-primaria-light {
+  color: var(--primary-light);
+}
+
+.text-minha-cor-secundaria {
+  color: var(--secondary);
+}
+
+.text-minha-cor-secundaria-light {
+  color: var(--secondary-light);
+}
+
+.text-minha-cor-terciaria {
+  color: var(--tertiary);
+}
+
+.text-minha-cor-terciaria-black {
+  color: var(--tertiary-black);
+}
+
+/* Classes para Fontes */
+.font-roboto {
+  font-family: var(--font-roboto);
+}
+
+.font-open-sans {
+  font-family: var(--font-open-sans);
+}
+
+/* Classes para Tamanhos de Fonte */
+.text-sm {
+  font-size: var(--font-size-sm);
+}
+
+.text-md {
+  font-size: var(--font-size-md);
+}
+
+.text-lg {
+  font-size: var(--font-size-lg);
+}
+
+.text-xl {
+  font-size: var(--font-size-xl);
+}
+
+/* Classes para Pesos de Fonte */
+.font-normal {
+  font-weight: var(--font-weight-normal);
+}
+
+.font-bold {
+  font-weight: var(--font-weight-bold);
+}
