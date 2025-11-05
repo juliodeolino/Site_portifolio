@@ -37,7 +37,6 @@ const Header = () => {
     e.preventDefault(); // Impede o comportamento padrão do link de âncora
     const targetElement = document.getElementById(sectionId);
     if (targetElement) {
-      // Considerando que seu header tem h-20 (80px), ajustamos o scroll para não esconder a seção
       const headerOffset = 80; 
       const elementPosition = targetElement.getBoundingClientRect().top + window.scrollY;
       window.scrollTo({

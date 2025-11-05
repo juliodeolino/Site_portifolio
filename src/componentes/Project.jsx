@@ -1,6 +1,6 @@
 import Card from "./Card";
 
-const Projetos = () => {
+const Project = () => {
   return (
     <>
       <section className="w-full min-h-[100vh] bg-minha-cor-secundaria flex items-start justify-center font-roboto relative"
@@ -14,9 +14,10 @@ const Projetos = () => {
         <div className="mt-42 max-w-7xl mx auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
              <Card 
-             imgSrc = "./Image.png" 
+             imgSrc = "./ecommerce.jpg" 
              title = "Ecommerce"
              bodyText= "Loja de materiais esportivos"
+             projectURL= "https://github.com/juliodeolino/Ecommerce-Materiais-Esportivos"
              />
           </div>
         </div>
@@ -25,4 +26,4 @@ const Projetos = () => {
   );
 };
 
-export default Projetos;
+export default Project;

@@ -1,4 +1,4 @@
-const SobreMin = () => {
+const About = () => {
     return (
         <>
             <section className="w-full min-h-[100vh] bg-minha-cor-secundaria flex items-center font-roboto"
@@ -15,4 +15,4 @@ const SobreMin = () => {
     );
 };
 
-export default SobreMin;
+export default About;
