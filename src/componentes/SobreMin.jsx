@@ -1,7 +1,7 @@
 const SobreMin = () => {
     return (
         <>
-            <section className="w-full min-h-[700px] bg-minha-cor-secundaria flex items-center font-roboto"
+            <section className="w-full min-h-[100vh] bg-minha-cor-secundaria flex items-center font-roboto"
             id="sobre-min"
             >
                 <div className="w-[500px] h-[400px] ml-32 flex flex-col ">

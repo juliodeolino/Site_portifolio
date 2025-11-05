@@ -3,7 +3,7 @@ import { CiCircleInfo } from "react-icons/ci";
 const Skills = () => {
   return (
     <>
-      <section className="relative flex w-full min-h-[700px] bg-minha-cor-secundaria font-roboto justify-center"
+      <section className="relative flex w-full min-h-[100vh] bg-minha-cor-secundaria font-roboto justify-center"
       id="skills">
         <div className="absolute top-10 left-32">
           <h2 className="pb-2 text-xl font-semibold text-minha-cor-terciaria-black">
