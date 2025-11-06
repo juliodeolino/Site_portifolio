@@ -26,7 +26,7 @@ const About = () => {
                         Desenvolvedor full-stack.
                     </p>
                     
-                    <p className="text-gray-800 text-lg leading-relaxed">
+                    <p className="text-gray-800 md:text-lg leading-relaxed text-base">
                         Sou estudante de Engenharia de Software na UFC - Campus Russas, com previsão de conclusão em 2025. Tenho experiência em projetos acadêmicos e gosto de explorar soluções criativas para problemas reais. Valorizando sempre o aprendizado contínuo e acredito que a colaboração é essencial para o crescimento profissional e a entrega de bons resultados.
                     </p>
                     {/* Aqui você pode adicionar um botão de CV, se quiser */}
