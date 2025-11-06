@@ -7,7 +7,7 @@ const About = () => {
         >
             <div 
                 // 2. Container: Centraliza o conteúdo e define padding responsivo
-                className="max-w-7xl mx-32 px-6 md:px-12 lg:px-16"
+                className="max-w-7xl mx-20 px-6 md:px-12 lg:px-16"
             >
                 {/* Título e Subtítulo */}
                 <h2 className="pb-2 text-xl md:text-3xl font-bold text-minha-cor-terciaria-black">
