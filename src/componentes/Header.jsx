@@ -26,6 +26,8 @@ const Header = () => {
             });
         }
     };
+
+    
     
     // Função para fechar o menu após o clique nos links do menu mobile
     const handleMobileNavClick = (e, sectionId) => {
@@ -90,7 +92,7 @@ const Header = () => {
     return (
         <>
             {/* 1. HEADER PRINCIPAL (Fixo no Topo) */}
-            <div className="fixed top-0 left-0 w-full bg-minha-cor-primaria z-50">
+            <div className="fixed top-0 left-0 w-full bg-minha-cor-primaria z-50 w-full">
                 <div className="flex justify-between items-center h-20 px-6 md:px-12">
                     
                     {/* Logotipo/Título */}

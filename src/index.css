@@ -3,6 +3,14 @@
 /* Importe suas fontes aqui, se for usar fontes externas */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&display=swap');
 
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+body {
+    scrollbar-width: none;
+}
+
 :root {
   /* Cores Primárias */
   --primary: #1B263B;
@@ -118,3 +126,4 @@
 .font-bold {
   font-weight: var(--font-weight-bold);
 }
+

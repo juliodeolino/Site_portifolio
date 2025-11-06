@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <div className="mx-auto px-4 py-8 grid grid-cols-1 md:grid-cols-3 gap-8 bg-minha-cor-terciaria-black text-white  ">
+        <div className="mx-auto px-4 py-8 grid grid-cols-1 md:grid-cols-3 gap-8 bg-minha-cor-terciaria-black text-white w-full">
             <div className="flex gap-5 justify-center">
                 <a href="">
                     <img src="/instagran-white.png" alt="Instagram" 
